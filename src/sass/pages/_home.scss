@@ -1,0 +1,23 @@
+.section-home {
+
+    display: block;
+    transition: all .2s;
+    position: relative;
+    
+
+    &__heading-large {
+        font-size: 8rem;
+        padding-left: 5rem;
+        padding-top: 5rem;
+        animation: moveInLeft .5s ease-in;
+    }
+
+    &__heading-medium {
+        font-size: 6rem;
+        padding-left: 5rem;
+        animation: moveInLeft .5s ease-in;
+    }
+    &__background{
+
+    }
+}

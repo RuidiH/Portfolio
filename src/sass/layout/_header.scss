@@ -1,0 +1,25 @@
+.header {
+    background-color: $color-black-primary;
+    height: 6rem;
+    width: auto;
+
+    &__navbar {
+        display: flex;
+        color: $color-grey-light; 
+        padding: 2rem;
+        padding-right: 4rem;
+        float: right;
+        
+        &--item {
+            text-align: center;
+            margin-right: 3rem;
+            &:hover {
+                text-decoration: underline $color-green-primary 0.2rem;
+                text-underline-offset: 0.7rem;
+
+            }
+        }
+    }
+
+
+}
