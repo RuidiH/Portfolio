@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <header className='header'>
-        <Navigation />
+        <Navigation/>
       </header>
       <Home />
     </div>
