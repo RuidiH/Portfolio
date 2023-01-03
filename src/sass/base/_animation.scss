@@ -1,35 +1,38 @@
 @keyframes moveInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-10rem);
+        transform: translateX(-5rem);
     }
 
     100% {
         opacity: 1;
         transform: translateX(0);
+        visibility: visible;
     }
 }
 
 @keyframes moveInRight {
     0% {
         opacity: 0;
-        transform: translateX(13rem);
+        transform: translateX(5rem);
     }
 
     100% {
         opacity: 1;
         transform: translateX(0);
+        visibility: visible;
     }
 }
 
 @keyframes moveInTop {
     0% {
         opacity: 0;
-        transform: translateY(-10rem);
+        transform: translateY(-5rem);
     }
 
     100% {
         opacity: 1;
         transform: translateY(0);
+        visibility: visible;
     }
 }

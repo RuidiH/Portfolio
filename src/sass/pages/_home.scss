@@ -1,41 +1,92 @@
 .section-home {
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
   transition: all 0.2s;
   background-color: $color-white-primary;
-    position: relative;
+
   &__bg-color {
-    background-color: $color-green-primary;
-    position: relative;
-    z-index: -1;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    background-image: linear-gradient(
+      -60deg,
+      $color-green-secondary 34%,
+      $color-green-secondary-dark 38%,
+      $color-grey-dark 30%,
+      $color-grey-light 34%
+    );
+    margin-top: 7.5rem;
+    height: 40rem;
+    display: flex;
+    box-shadow: 0rem 0rem 3rem $color-grey-dark;
   }
 
   &__left-box {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
     height: 45rem;
-    z-index: 1;
-position: relative; 
-    background-color: $color-grey-dark;
-    -webkit-clip-path: polygon(0 0, 75% 0, 30% 100%, 0 100%);
-    clip-path: polygon(0 0, 75% 0, 30% 100%, 0 100%);
+    width: 50%;
+    padding-left: 12rem;
+    padding-top: 8rem;
+    text-shadow: 0.1rem 0.1rem 0.2rem $color-grey-dark;
+
+    &__heading-small {
+      width: 45rem;
+      font-size: 4rem;
+      animation: moveInRight 0.5s ease-in 0.1s;
+      animation-fill-mode: forwards;
+      visibility: hidden;
+      color: $color-black-secondary;
+    }
 
     &__heading-large {
       font-size: 7rem;
-      padding-top: 10rem;
-      margin-left: 18rem;
-      animation: moveInRight 0.5s ease-in;
-      color: $color-black-primary;
+      width: 55rem;
+      animation: moveInRight 0.5s ease-in 0.3s;
+      animation-fill-mode: forwards;
+      visibility: hidden;
+      color: $color-black-secondary;
     }
+  }
+
+  &__right-box {
+    height: 45rem;
+    width: 50%;
+    padding-left: 15rem;
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: column;
 
     &__heading-medium {
-      width: 45rem;
-      font-size: 6rem;
-      margin-left: 18rem;
-      animation: moveInRight 0.5s ease-in;
+      text-shadow: 0.1rem 0.1rem 0.2rem $color-green-secondary-dark;
+      width: 25rem;
+      font-size: 3rem;
+      animation: moveInLeft 0.5s ease-in 0.6s;
+      animation-fill-mode: forwards;
+      color: $color-white-primary;
+      padding-top: 3rem;
+      visibility: hidden;
+    }
+
+    &__anchor {
       color: $color-black-tertiary;
+      font-size: 1.8rem;
+      width: 15rem;
+      margin-top: 3rem;
+      text-align: center;
+      text-decoration: none;
+      background-color: white;
+      border-radius: 10rem;
+      transition: all 0.2s;
+      box-shadow: .1rem .1rem .5rem $color-grey-dark;
+      // animation: moveInLeft 0.5s ease-in 0.8s;
+      // animation-fill-mode: forwards;
+      // visibility: hidden;
+      font-weight: 600;
+
+      &:hover {
+        transform: translateY(-.2rem) scale(1.03);
+      }
+
+      &:active {
+        transform: translateY(.2rem) scale(0.97);
+        color: $color-black-secondary;
+      }
     }
   }
 }

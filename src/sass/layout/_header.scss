@@ -1,26 +1,31 @@
 .header {
-    background-color: $color-black-primary;
+    background-color: $color-black-secondary;
     height: 5rem;
     width: auto;
+    box-shadow: 0rem 0rem 3rem $color-black-secondary;
 
     &__navbar {
         display: flex;
         color: $color-grey-light; 
         padding: 1.5rem;
-        padding-right: 10rem;
-        float: right;
-        
+        padding-left: 12rem;
+        float: left;
+
+
         &--item {
+
+            color: $color-grey-light;
+            text-decoration: none;
             text-align: center;
-            margin-right: 3rem;
+            margin-right: 2.5rem;
             transition: transform ease-in 0.2s;
             &:hover {
                 text-decoration: underline $color-green-primary 0.2rem;
                 text-underline-offset: 0.7rem;
-                transform: translateY(-0.3rem);
+                transform: translateY(-0.2rem);
             }
         }
+        
     }
-
 
 }
