@@ -2,18 +2,16 @@
     background-color: $color-black-secondary;
     height: 5rem;
     width: auto;
-    box-shadow: 0rem 0rem 3rem $color-black-secondary;
+    box-shadow: 0rem 0rem 1rem $color-black-secondary;
 
     &__navbar {
         display: flex;
         color: $color-grey-light; 
         padding: 1.5rem;
-        padding-left: 12rem;
-        float: left;
-
+        padding-right: 5rem;
+        float: right;
 
         &--item {
-
             color: $color-grey-light;
             text-decoration: none;
             text-align: center;

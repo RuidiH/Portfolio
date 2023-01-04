@@ -28,7 +28,7 @@
     &__heading-small {
       width: 45rem;
       font-size: 4rem;
-      animation: moveInRight 0.5s ease-in 0.1s;
+      animation: moveInRight 0.3s ease-in 0.1s;
       animation-fill-mode: forwards;
       visibility: hidden;
       color: $color-black-secondary;
@@ -37,7 +37,7 @@
     &__heading-large {
       font-size: 7rem;
       width: 55rem;
-      animation: moveInRight 0.5s ease-in 0.3s;
+      animation: moveInRight 0.3s ease-in 0.3s;
       animation-fill-mode: forwards;
       visibility: hidden;
       color: $color-black-secondary;
@@ -56,7 +56,7 @@
       text-shadow: 0.1rem 0.1rem 0.2rem $color-green-secondary-dark;
       width: 25rem;
       font-size: 3rem;
-      animation: moveInLeft 0.5s ease-in 0.6s;
+      animation: moveInLeft 0.3s ease-in 0.5s;
       animation-fill-mode: forwards;
       color: $color-white-primary;
       padding-top: 3rem;
@@ -74,9 +74,9 @@
       border-radius: 10rem;
       transition: all 0.2s;
       box-shadow: .1rem .1rem .5rem $color-grey-dark;
-      // animation: moveInLeft 0.5s ease-in 0.8s;
-      // animation-fill-mode: forwards;
-      // visibility: hidden;
+      animation: appear 0.3s ease-in 0.6s;
+      animation-fill-mode: forwards;
+      visibility: hidden;
       font-weight: 600;
 
       &:hover {

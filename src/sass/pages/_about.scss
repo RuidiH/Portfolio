@@ -1,0 +1,65 @@
+.about-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+  padding-left: 15rem;
+
+  &__icon {
+    padding-top: 5rem;
+    animation: moveInLeft 0.5s ease-in 0.1s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+
+  &__left-edge {
+    width: 0.5rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    border-radius: 0.2rem;
+    background-image: linear-gradient(
+      to right,
+      $color-black-tertiary 60%,
+      $color-green-secondary-dark 60%
+    );
+
+    animation: moveInLeft 0.3s ease-in 0.3s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+
+  &__triangle {
+    margin-top: 9rem;
+    margin-left: 5rem;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 1rem 0 1rem 1.6rem;
+    border-color: transparent transparent transparent $color-green-secondary;
+
+    animation: moveInLeft 0.3s ease-in 0.4s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+
+  &__text-box {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    width: 45rem;
+    height: 20rem;
+    color: $color-black-tertiary;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+
+    animation: moveInLeft 0.3s ease-in 0.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+
+  &__city {
+    padding-left: 5rem;
+    width: 5rem;
+    height: 10rem;
+  }
+}
