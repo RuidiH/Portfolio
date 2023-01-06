@@ -55,20 +55,36 @@ body {
 }
 
 .project-item {
-  padding-top: 5rem;
-  width: 100rem;
-  height: 10rem;
-  border-radius: 20rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-top: 2rem;
+  width: 80rem;
+  height: fit-content;
+  border-radius: 3rem;
   box-shadow: 0 0 1rem #bbbbbb;
   background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
 }
 .project-item__img-container {
   width: 5rem;
   height: 5rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 .project-item__img-container img {
   width: 100%;
   height: 100%;
+}
+.project-item__text-container {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  width: 50rem;
+}
+.project-item__text-container h2 {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+.project-item__text-container p {
+  font-size: 1rem;
 }
 
 .circular-icon {
@@ -295,13 +311,17 @@ body {
   color: #272727;
 }
 
-
-
-
-
-
-.project {
+.projects {
   padding: 5rem 5rem 5rem 5rem;
+  display: flex;
+}
+.projects h3 {
+  background-color: #7db00f;
+  color: #fff;
+  width: 8rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-size: 2rem;
+  margin-left: 1rem;
 }
 
 /*# sourceMappingURL=App.css.map */
