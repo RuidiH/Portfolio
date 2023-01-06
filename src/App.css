@@ -54,6 +54,23 @@ body {
   font-size: 1.5rem;
 }
 
+.project-item {
+  padding-top: 5rem;
+  width: 100rem;
+  height: 10rem;
+  border-radius: 20rem;
+  box-shadow: 0 0 1rem #bbbbbb;
+  background-color: #f2f2f2;
+}
+.project-item__img-container {
+  width: 5rem;
+  height: 5rem;
+}
+.project-item__img-container img {
+  width: 100%;
+  height: 100%;
+}
+
 .circular-icon {
   width: 10rem;
   height: 10rem;
@@ -127,6 +144,60 @@ body {
 }
 .row .col-3-of-4 {
   width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem);
+}
+
+.about-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+  padding-left: 15rem;
+}
+.about-row__icon {
+  padding-top: 5rem;
+  animation: moveInLeft 0.5s ease-in 0.1s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+.about-row__left-edge {
+  width: 0.5rem;
+  height: 10rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  border-radius: 0.2rem;
+  background-image: linear-gradient(to right, #3c3c3c 60%, #7db00f 60%);
+  animation: moveInLeft 0.3s ease-in 0.3s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+.about-row__triangle {
+  margin-top: 9rem;
+  margin-left: 5rem;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1rem 0 1rem 1.6rem;
+  border-color: transparent transparent transparent #9fe801;
+  animation: moveInLeft 0.3s ease-in 0.4s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+.about-row__text-box {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  width: 45rem;
+  height: 20rem;
+  color: #3c3c3c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  animation: moveInLeft 0.3s ease-in 0.5s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+.about-row__city {
+  padding-left: 5rem;
+  width: 5rem;
+  height: 10rem;
 }
 
 .section-home {
@@ -207,58 +278,8 @@ body {
   color: #272727;
 }
 
-.about-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-top: 5rem;
-  padding-left: 15rem;
-}
-.about-row__icon {
-  padding-top: 5rem;
-  animation: moveInLeft 0.5s ease-in 0.1s;
-  animation-fill-mode: forwards;
-  visibility: hidden;
-}
-.about-row__left-edge {
-  width: 0.5rem;
-  height: 10rem;
-  margin-left: 5rem;
-  margin-top: 5rem;
-  border-radius: 0.2rem;
-  background-image: linear-gradient(to right, #3c3c3c 60%, #7db00f 60%);
-  animation: moveInLeft 0.3s ease-in 0.3s;
-  animation-fill-mode: forwards;
-  visibility: hidden;
-}
-.about-row__triangle {
-  margin-top: 9rem;
-  margin-left: 5rem;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 1rem 0 1rem 1.6rem;
-  border-color: transparent transparent transparent #9fe801;
-  animation: moveInLeft 0.3s ease-in 0.4s;
-  animation-fill-mode: forwards;
-  visibility: hidden;
-}
-.about-row__text-box {
-  padding-top: 5rem;
-  padding-left: 5rem;
-  width: 45rem;
-  height: 20rem;
-  color: #3c3c3c;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  animation: moveInLeft 0.3s ease-in 0.5s;
-  animation-fill-mode: forwards;
-  visibility: hidden;
-}
-.about-row__city {
-  padding-left: 5rem;
-  width: 5rem;
-  height: 10rem;
+.project {
+  padding: 5rem 5rem 5rem 5rem;
 }
 
 /*# sourceMappingURL=App.css.map */

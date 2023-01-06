@@ -11,7 +11,9 @@ const Navigation = (props) => {
         <Link to="/about" className="header__navbar--item">
           About
         </Link>
-        <nav className="header__navbar--item">Projects</nav>
+        <Link to="/projects" className="header__navbar--item">
+          Projects
+        </Link>
         <nav className="header__navbar--item">Interests</nav>
       </div>
     </header>
