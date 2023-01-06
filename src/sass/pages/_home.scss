@@ -20,7 +20,7 @@
 
   &__left-box {
     height: 45rem;
-    width: 50%;
+    width: 70%;
     padding-left: 12rem;
     padding-top: 8rem;
     text-shadow: 0.1rem 0.1rem 0.2rem $color-grey-dark;
@@ -46,35 +46,36 @@
 
   &__right-box {
     height: 45rem;
-    width: 50%;
-    padding-left: 15rem;
-    padding-top: 12rem;
+    width: 30%;
+    padding-top: 15rem;
     display: flex;
     flex-direction: column;
+    padding-left: 8rem;
 
     &__heading-medium {
+      text-align: center;
       text-shadow: 0.1rem 0.1rem 0.2rem $color-green-secondary-dark;
-      width: 25rem;
+      width: 15rem;
       font-size: 3rem;
       animation: moveInLeft 0.3s ease-in 0.5s;
       animation-fill-mode: forwards;
       color: $color-white-primary;
-      padding-top: 3rem;
       visibility: hidden;
     }
 
     &__anchor {
+      text-align: center;
       color: $color-black-tertiary;
       font-size: 1.8rem;
       width: 15rem;
       margin-top: 3rem;
-      text-align: center;
+
       text-decoration: none;
       background-color: white;
       border-radius: 10rem;
       transition: all 0.2s;
       box-shadow: .1rem .1rem .5rem $color-grey-dark;
-      animation: appear 0.3s ease-in 0.6s;
+      animation: appear 0.3s ease-in 0.7s;
       animation-fill-mode: forwards;
       visibility: hidden;
       font-weight: 600;
