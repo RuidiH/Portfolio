@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.68733e0b.css",
+    "main.js": "/static/js/main.e1819f6e.js",
+    "static/js/787.bfcd4665.chunk.js": "/static/js/787.bfcd4665.chunk.js",
+    "static/media/LoL_icon.png": "/static/media/LoL_icon.a15fb899ea944edd9c37.png",
+    "static/media/React-icon.png": "/static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
+    "static/media/eu4.png": "/static/media/eu4.f190646352b30d682f34.png",
+    "static/media/hoi4.png": "/static/media/hoi4.ef44edc0866bc8183582.png",
+    "static/media/avatar.png": "/static/media/avatar.f62d76881c4cd6efb1a2.png",
+    "static/media/osu.png": "/static/media/osu.714975427401f228623d.png",
+    "static/media/downtowngolden.jpg": "/static/media/downtowngolden.dd7148805e7fed094d04.jpg",
+    "static/media/Liuzhou.jpg": "/static/media/Liuzhou.2656b3e0ab2dd678112b.jpg",
+    "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
+    "static/media/civ6.jfif": "/static/media/civ6.81c49a0a06370865e10e.jfif",
+    "static/media/genshin.jfif": "/static/media/genshin.e0288d756765afbbe62d.jfif",
+    "index.html": "/index.html",
+    "main.68733e0b.css.map": "/static/css/main.68733e0b.css.map",
+    "main.e1819f6e.js.map": "/static/js/main.e1819f6e.js.map",
+    "787.bfcd4665.chunk.js.map": "/static/js/787.bfcd4665.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68733e0b.css",
+    "static/js/main.e1819f6e.js"
+  ]
+}
