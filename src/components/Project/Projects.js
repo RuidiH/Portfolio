@@ -52,17 +52,19 @@ const Projects = () => {
   });
 
   return (
-    <div className="projects">
-      <h3> Projects </h3>
-      {projectItems.map((item) => (
-        <ProjectItem
-          img={item.icon}
-          title={item.title}
-          description={item.description}
-          link={item.link}
-          tools={item.tools}
-        />
-      ))}
+    <div className="project-container">
+      <div className="projects">
+        <h3> Projects </h3>
+        {projectItems.map((item) => (
+          <ProjectItem
+            img={item.icon}
+            title={item.title}
+            description={item.description}
+            link={item.link}
+            tools={item.tools}
+          />
+        ))}
+      </div>
     </div>
   );
 };

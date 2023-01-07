@@ -42,10 +42,12 @@
 }
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   overflow-x: hidden;
+  width: 100vw;
 }
 
 body {
@@ -61,10 +63,9 @@ body {
 }
 
 .project-item {
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 2rem;
   margin-top: 2rem;
   width: fit-content;
-  height: 10rem;
   border-radius: 3rem;
   box-shadow: 0 0 1rem #bbbbbb;
   background-color: #f2f2f2;
@@ -350,23 +351,25 @@ body {
   color: #272727;
 }
 
-.projects {
-  padding: 5rem 5rem 5rem 5rem;
+.project-container {
+  padding: 0 15rem;
+}
+.project-container .projects {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-left: 0.01rem solid black;
+  border-right: 0.01rem solid black;
 }
-.projects __project-container {
-  border-left: 0.5rem;
-  border-right: 0.5rem;
-}
-.projects h3 {
+.project-container .projects h3 {
   background-color: #7db00f;
   color: #fff;
-  width: 20rem;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  font-size: 5rem;
+  width: 18rem;
+  padding: 1rem;
+  font-size: 4rem;
   margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=App.css.map */

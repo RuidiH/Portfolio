@@ -1,19 +1,25 @@
-.projects {
-    padding: 5rem 5rem 5rem 5rem;
+.project-container {
+    // display: flex;
+    // flex-direction: column;
+    // align-content: center;
+    // justify-content: center;
+  padding: 0 15rem;
+  .projects {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-left: 0.01rem solid black;
+    border-right: 0.01rem solid black;
 
-    __project-container {
-        border-left: .5rem;
-        border-right: .5rem;
-    }
     h3 {
-        background-color: $color-green-secondary-dark;
-        color: $color-white-primary;
-        width: 20rem;
-        padding: .5rem .5rem .5rem .5rem;
-        font-size: 5rem;
-        margin-left: 1rem;
+      background-color: $color-green-secondary-dark;
+      color: $color-white-primary;
+      width: 18rem;
+      padding: 1rem;
+      font-size: 4rem;
+      margin-left: 1rem;
+      margin-top: 1rem;
     }
+  }
 }
