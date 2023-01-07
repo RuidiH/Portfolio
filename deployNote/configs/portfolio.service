@@ -1,0 +1,15 @@
+[Unit]
+Description=NodeJS server, NextJS public frontend
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+Restart=on-failure
+RestartSec=10
+WorkingDirectory=$path_to_backend_script
+ExecStart=/usr/bin/node backend.js
+
+[Install]
+WantedBy=multi-user.target
