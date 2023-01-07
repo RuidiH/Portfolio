@@ -7,8 +7,10 @@
 @import "./base/typography";
 @import "./base/utilities";
 
-@import "./components/projectItem";
-@import "./components/portfolioIcon";
+@import "./components/card";
+@import "./components/project-item";
+@import "./components/portfolio-icon";
+@import "./components/tool";
 
 @import "./layout/header";
 @import "./layout/grid";

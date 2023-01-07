@@ -54,11 +54,17 @@ body {
   font-size: 1.5rem;
 }
 
+.card {
+  color: #EFEFEF;
+  border-radius: 5rem;
+  box-shadow: 0 0 1rem #3c3c3c;
+}
+
 .project-item {
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 2rem 2rem 2rem 2rem;
   margin-top: 2rem;
-  width: 80rem;
-  height: fit-content;
+  width: fit-content;
+  height: 10rem;
   border-radius: 3rem;
   box-shadow: 0 0 1rem #bbbbbb;
   background-color: #f2f2f2;
@@ -66,25 +72,32 @@ body {
   flex-direction: row;
 }
 .project-item__img-container {
-  width: 5rem;
-  height: 5rem;
-  padding: 2rem 2rem 2rem 2rem;
+  width: 6rem;
+  height: 6rem;
+  padding: 1.5rem 1.5rem 1rem 1rem;
 }
 .project-item__img-container img {
   width: 100%;
   height: 100%;
 }
 .project-item__text-container {
-  padding-top: 1rem;
-  padding-left: 3rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
   width: 50rem;
 }
 .project-item__text-container h2 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   font-size: 2rem;
 }
 .project-item__text-container p {
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+.project-item__text-container a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: inline;
+  color: #7db00f;
+  line-height: 2.5rem;
 }
 
 .circular-icon {
@@ -97,6 +110,32 @@ body {
   height: 100%;
   border-radius: 50%;
   object-fit: contain;
+}
+
+.tool-list {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 20rem;
+  height: fit-content;
+  justify-content: right;
+}
+.tool-list__card {
+  color: #fff;
+  margin: 0.5rem;
+  font-size: 1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  line-height: 4rem;
+  box-shadow: 0 0 0.5rem #bbbbbb;
+  background-color: #9fe801;
+  font-weight: 900;
+}
+.tool-list__card:hover {
+  transform: scale(1.05) translateY(-0.3rem);
 }
 
 .header {
@@ -314,13 +353,19 @@ body {
 .projects {
   padding: 5rem 5rem 5rem 5rem;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects __project-container {
+  border-left: 0.5rem;
+  border-right: 0.5rem;
 }
 .projects h3 {
   background-color: #7db00f;
   color: #fff;
-  width: 8rem;
+  width: 20rem;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  font-size: 2rem;
+  font-size: 5rem;
   margin-left: 1rem;
 }
 

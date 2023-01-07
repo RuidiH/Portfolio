@@ -1,0 +1,27 @@
+.tool-list {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 20rem;
+  height: fit-content;
+  justify-content: right;
+
+  &__card {
+    color: $color-white-primary;
+    margin: 0.5rem;
+    font-size: 1rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 4rem;
+    box-shadow: 0 0 0.5rem $color-grey-dark;
+    background-color: $color-green-secondary;
+    font-weight: 900;
+
+    &:hover {
+      transform: scale(1.05) translateY(-0.3rem);
+    }
+  }
+}

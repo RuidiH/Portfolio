@@ -1,0 +1,44 @@
+.project-item {
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 2rem;
+    width: fit-content;
+    height: 10rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 1rem $color-grey-dark;
+    background-color: $color-grey-light;
+    display: flex;
+    flex-direction: row;
+
+    &__img-container {
+        width: 6rem;
+        height: 6rem;
+        padding: 1.5rem 1.5rem 1rem 1rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__text-container {
+        padding-top: .5rem;
+        padding-left: 1rem;
+        width: 50rem;
+
+        h2 {
+            padding-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            display: inline;
+            color: $color-green-secondary-dark;
+            line-height: 2.5rem;
+        }
+    }
+}
