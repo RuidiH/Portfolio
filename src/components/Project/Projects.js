@@ -10,7 +10,7 @@ const projectItems = [
     icon: reactIcon,
     title: "React project",
     description:
-      "Building My own website using HTML, SASS, and React library together. Self-taught and learned project during winter 2023 in two weeks.",
+      "Building My own website using HTML, SASS, and React library together using two weeks in winter 2023.",
     link: "https://github.com/RuidiH/Portfolio",
     tools: ["HTML", "SASS", "React", "JS"],
   },
@@ -19,7 +19,7 @@ const projectItems = [
     icon: puppy,
     title: "Puppy Sound",
     description:
-      "A small game built using Unity and C# on top of a Java course project. Player needs to rescue his/her puppy by using a unique echo system while avoiding contact with a monster.",
+      "A collaborated game built using Unity and C# on top of a Java course project. Applied Kruskal's Algorithm to generate a dungeon. Player needs to rescue his/her puppy by using a unique echo system while avoiding contact with a monster.",
     link: "https://github.com/Jinming-Zhang/PuppySound",
     tools: ["Unity", "C#"],
   },
@@ -34,7 +34,7 @@ const projectItems = [
   },
 ];
 
-const tools = ["HTML", "SASS", "React", "JS", "Unity", "C#"];
+const tools = ["HTML", "SASS", "React", "JS", "Unity", "C#", "SQL", "MySQL"];
 
 const Projects = () => {
   // const [filter, setFilters] = useState(tools);

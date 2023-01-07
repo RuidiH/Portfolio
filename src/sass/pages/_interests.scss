@@ -1,0 +1,64 @@
+.interests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 3rem;
+  background-color: $color-white-primary;
+
+  &__intro {
+    width: 60rem;
+    height: 20rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem $color-black-tertiary;
+    background-color: rgba($color-white-secondary, 0.5);
+
+    h2 {
+        text-align: center;
+    }
+    
+    p {
+        padding: 1rem 1rem;
+    }
+  }
+
+  &__game {
+    width: 60rem;
+    height: 20rem;
+    margin-top: 5rem;
+    border-top: 0.01rem solid $color-black-tertiary;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &__card {
+      margin-right: 1rem;
+      background-color: rgba($color-white-secondary, 0.5);
+      color: $color-grey-light;
+      border-radius: 1rem;
+
+    //   box-shadow: 0 0 .5rem $color-grey-dark;
+    overflow: hidden;
+
+
+      width: 9rem;
+      height: 9rem;
+      background-color: $color-grey-light;
+
+      animation: appear .3s ease-in .3s;
+      animation-fill-mode: forwards;
+      visibility: hidden;
+
+      img {
+        // padding-left: 1rem;
+        // padding-top: 1rem;
+        width: 9rem;
+        height: 9rem;
+      }
+
+      &:hover {
+        transform: translateY(-0.5rem) scale(1.05);
+      }
+    }
+  }
+}

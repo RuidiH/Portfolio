@@ -6,6 +6,7 @@ import Navigation from "./components/Header/Navigation";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Project/Projects";
+import Interests from "./components/Interests/Interests";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About/>} />
           <Route path="/projects" element={<Projects/>} />
+          <Route path="/interests" element={<Interests/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

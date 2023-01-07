@@ -56,17 +56,11 @@ body {
   font-size: 1.5rem;
 }
 
-.card {
-  color: #EFEFEF;
-  border-radius: 5rem;
-  box-shadow: 0 0 1rem #3c3c3c;
-}
-
 .project-item {
   padding: 2rem;
   margin-top: 2rem;
   width: fit-content;
-  border-radius: 3rem;
+  border-radius: 1rem;
   box-shadow: 0 0 1rem #bbbbbb;
   background-color: #f2f2f2;
   display: flex;
@@ -130,7 +124,7 @@ body {
   height: 4.5rem;
   border-radius: 0.5rem;
   text-align: center;
-  line-height: 4rem;
+  line-height: 4.5rem;
   box-shadow: 0 0 0.5rem #bbbbbb;
   background-color: #9fe801;
   font-weight: 900;
@@ -351,8 +345,59 @@ body {
   color: #272727;
 }
 
+.interests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 3rem;
+  background-color: #fff;
+}
+.interests__intro {
+  width: 60rem;
+  height: 20rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem #3c3c3c;
+  background-color: rgba(239, 239, 239, 0.5);
+}
+.interests__intro h2 {
+  text-align: center;
+}
+.interests__intro p {
+  padding: 1rem 1rem;
+}
+.interests__game {
+  width: 60rem;
+  height: 20rem;
+  margin-top: 5rem;
+  border-top: 0.01rem solid #3c3c3c;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.interests__game__card {
+  margin-right: 1rem;
+  background-color: rgba(239, 239, 239, 0.5);
+  color: #f2f2f2;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 9rem;
+  height: 9rem;
+  background-color: #f2f2f2;
+  animation: appear 0.3s ease-in 0.3s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+.interests__game__card img {
+  width: 9rem;
+  height: 9rem;
+}
+.interests__game__card:hover {
+  transform: translateY(-0.5rem) scale(1.05);
+}
+
 .project-container {
-  padding: 0 15rem;
+  padding: 0 5rem;
 }
 .project-container .projects {
   height: 100vh;

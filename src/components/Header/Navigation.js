@@ -14,7 +14,9 @@ const Navigation = (props) => {
         <NavLink to="/projects" className="header__navbar--item">
           Projects
         </NavLink>
-        <nav className="header__navbar--item">Interests</nav>
+        <NavLink to="/interests" className="header__navbar--item">
+          Interests
+        </NavLink>
       </div>
     </header>
   );
